@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Алина Правдюкова](https://up.htmlacademy.ru/htmlcss/24/user/916761).
-* Наставник: `Неизвестно`.
+* Наставник: [Ксения Григорьева](https://htmlacademy.ru/profile/arctic_pie).
 
 ---
 
