@@ -48,7 +48,19 @@
          <h1 class="page-title">Перфораторы</h1>
          <section class="filters">
             <h2 class="visually-hidden">Фильтр товаров</h2>
-            <!-- Здесь будет форма -->
+            <form method="post" action="input5.php">
+               <p><b>Производители:</b></p>
+               <p><input type="checkbox" name="bosch" checked>BOSCH<Br>
+                  <input type="checkbox" name="interskol">ИНТЕРСКОЛ<Br>
+                  <input type="checkbox" name="makita" checked>MAKITA<Br>
+                  <input type="checkbox" name="dewalt">DEWALT<Br>
+                  <input type="checkbox" name="hitachi">HITACH
+               </p>
+               <p><b>Питание:</b></p>
+               <p><input name="battery" type="radio">Аккумуляторные</p>
+               <p><input name="cable" type="radio"> Сетевые</p>
+               <p><input type="submit" value="Отправить"></p>
+            </form>
          </section>
          <section class="catalog">
             <h2 class="visually-hidden">Список перфораторов</h2>
@@ -162,6 +174,15 @@
                   <b>12 500 Р.</b>
                </li>
             </ul>
+         </section>
+         <section class="add-to-basket">
+            <h2 class="visually-hidden">
+               Добавление в корзину
+            </h2>
+            <button class="modal-close" type="button">Закрыть</button><br>
+            Товар добавлен в корзину<br>
+            <a class="button" href="proceed-order.html">Оформить заказ</a>
+            <button class="modal-close" type="button">Продолжить покупки</button>
          </section>
       </main>
       <footer class="main-footer">
